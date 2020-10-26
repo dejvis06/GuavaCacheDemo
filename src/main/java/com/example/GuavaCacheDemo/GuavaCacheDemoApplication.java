@@ -27,7 +27,6 @@ public class GuavaCacheDemoApplication {
 	@PostConstruct
 	void testCache() {
 		try {
-
 			Person person = cache.getPerson(1);
 			System.err.println("post construct: " + person.toString());
 		} catch (Exception e) {
