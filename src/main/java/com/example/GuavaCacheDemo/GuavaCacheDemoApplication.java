@@ -25,14 +25,14 @@ public class GuavaCacheDemoApplication {
 	}
 
 	@PostConstruct
-	public void testCache() {
-
+	void testCache() {
 		try {
 
 			Person person = cache.getPerson(1);
 			System.err.println("post construct: " + person.toString());
 		} catch (Exception e) {
 			// TODO: handle exception
+			e.printStackTrace();
 		}
 	}
 
