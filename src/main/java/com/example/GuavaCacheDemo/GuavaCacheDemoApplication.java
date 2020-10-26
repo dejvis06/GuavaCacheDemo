@@ -30,9 +30,7 @@ public class GuavaCacheDemoApplication {
 		try {
 
 			Person person = cache.getPerson(1);
-
 			System.err.println("post construct: " + person.toString());
-
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
