@@ -25,7 +25,7 @@ public class GuavaCacheDemoApplication {
 	}
 
 	@PostConstruct
-	public void testCache() {
+	void testCache() {
 
 		try {
 
